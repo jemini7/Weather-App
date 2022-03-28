@@ -45,7 +45,7 @@
             .then(data => {
                 console.log(data.main);
                 weatherdata = data;
-                var result_data = `<div class="card" style="width: 18rem;">
+                var result_data = `<div class="card">
                 <img src="http://openweathermap.org/img/wn/${weatherdata.weather[0].icon}@2x.png" class="bg-primary" alt="...">
     <div class="card-body">
       <h5 class="card-title">${weatherdata.name}</h5>
